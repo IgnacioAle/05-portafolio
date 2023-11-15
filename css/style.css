@@ -26,9 +26,20 @@ body {
 }
 
 .contenedor{
-    width: 120 rem;
+    width: 120rem;
+    margin: 0 auto 0 auto;
 }
 
 .navegacion-principal{
+    padding: 1rem;
+}
+
+.navegacion-principal a{
+    text-decoration: none;
+    color: var(--cafeCuesco);
+}
+
+.nav-bg{
     background-color: var(--verdePalta);
+
 }

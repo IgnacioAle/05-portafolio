@@ -1,0 +1,34 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --verdePalta: #CAF567;
+    --cafeCuesco: #F09C6A;
+
+    --fuente-principal: 3.8 rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8 rem;
+    font-weight: bold;
+}
+
+.contenedor{
+    width: 120 rem;
+}
+
+.navegacion-principal{
+    background-color: var(--verdePalta);
+}

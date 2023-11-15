@@ -30,16 +30,16 @@ body {
     margin: 0 auto 0 auto;
 }
 
+.nav-bg{
+    background-color: var(--verdePalta);
+
+}
+
 .navegacion-principal{
     padding: 1rem;
 }
 
 .navegacion-principal a{
-    text-decoration: none;
     color: var(--cafeCuesco);
-}
-
-.nav-bg{
-    background-color: var(--verdePalta);
-
+    text-decoration: none;
 }

@@ -36,10 +36,27 @@ body {
 }
 
 .navegacion-principal{
-    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navegacion-principal a{
     color: var(--cafeCuesco);
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--cafeCuesco);
+    color: var(--verdePalta);
+}
+
+@media (min-with: 480px){
+
+}
+
+@media (min-with: 768px){
+    
 }

@@ -15,6 +15,7 @@ html {
     box-sizing: border-box;
 }
 
+
 *, *:before, *:after{
     box-sizing: inherit;
 }
@@ -22,18 +23,52 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, #DFE9F3 0%, var(--blanco) 100%);
+
 }
 
-.titulo {
-    text-align: center;
+h1{
     font-size: 3.8 rem;
-    font-weight: bold;
+
 }
 
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-weight: bold;
+
+}
 
 .contenedor{
     max-width: 120rem;
     margin: 0 auto 0 auto;
+}
+
+.boton{
+    background-color: var(--verdePalta);
+    color: var(--cafeCuesco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+}
+
+@media (min-width: 480px) {
+    .boton{
+        width: auto;
+    }
 }
 
 .nav-bg{
@@ -82,5 +117,18 @@ body {
     background-color: rgb(0, 0, 0, .6);
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.contenido-hero h2{
+    color: var(--blanco);
+}
+
+.ubicacion{
+    color: var(--blanco);
+    display: flex;
+    align-items: flex-end;
 }

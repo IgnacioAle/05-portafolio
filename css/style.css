@@ -155,3 +155,29 @@ h3 {
     }
     
 }
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio h3 {
+    color: var(--oscuro);
+}
+
+.servicio p {
+    line-height: 2;
+    font-weight: normal;
+    text-align: center;
+}
+
+.servicios .iconos{
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--verdePalta);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

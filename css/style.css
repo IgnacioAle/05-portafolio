@@ -143,7 +143,7 @@ h3 {
 }
 
 .hero {
-    background-image: url(../img/fondo.jpeg);
+    background-image: url(desktop.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
